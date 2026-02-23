@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://qdkjqs8d4sln"]
+
+[ext_resource type="PackedScene" uid="uid://bww5o3k0o7s50" path="res://Assets/brackeys_3d_game_assets/import_examples/wall_arched_with_collider.glb" id="1_p7uff"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_vwb4v"]
+points = PackedVector3Array(2, 4, 0.49999997, 2, 0, 0.49999997, 2, 4, -0.49999997, -2, 4, 0.49999997, 2, 0, -0.49999997, -2, 0, 0.49999997, -2, 4, -0.49999997, -2, 0, -0.49999997)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_g6vox"]
+points = PackedVector3Array(2, 4, 0.49999997, 2, 0, 0.49999997, 2, 4, -0.49999997, -2, 4, 0.49999997, 2, 0, -0.49999997, -2, 0, 0.49999997, -2, 4, -0.49999997, -2, 0, -0.49999997)
+
+[node name="wall_arched_with_collider" type="StaticBody3D" unique_id=1355031225]
+
+[node name="wall_arched_with_collider" parent="." unique_id=2045238486 instance=ExtResource("1_p7uff")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1383971722]
+shape = SubResource("ConvexPolygonShape3D_vwb4v")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." unique_id=2011890700]
+shape = SubResource("ConvexPolygonShape3D_g6vox")

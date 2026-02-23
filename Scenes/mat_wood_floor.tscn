@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://dnny2beq1gxdi"]
+
+[ext_resource type="PackedScene" uid="uid://dx7xmbx3aenmg" path="res://Assets/brackeys_3d_game_assets/dungeon_assets/building/floor_wood.glb" id="1_mxc37"]
+
+[node name="Node3D" type="Node3D" unique_id=1840011458]
+
+[node name="floor_wood" parent="." unique_id=481793169 instance=ExtResource("1_mxc37")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5114597, -1.1920929e-07, -0.6359844)

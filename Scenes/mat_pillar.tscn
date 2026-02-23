@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://bhyg1xfji6svo"]
+
+[ext_resource type="PackedScene" uid="uid://xdf0j73yqh35" path="res://Assets/brackeys_3d_game_assets/dungeon_assets/building/pillar.glb" id="1_o6kdu"]
+
+[node name="Node3D" type="Node3D" unique_id=846692813]
+
+[node name="pillar2" parent="." unique_id=1457750664 instance=ExtResource("1_o6kdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.049843192, 0, 0.06623936)

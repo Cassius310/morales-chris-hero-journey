@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://cyww20mmomjoj"]
+
+[ext_resource type="PackedScene" uid="uid://cr2j5sao23avd" path="res://Assets/brackeys_3d_game_assets/dungeon_assets/building/floor_stone.glb" id="1_yvqee"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_3xyg8"]
+points = PackedVector3Array(-2, -0.10000001, -2, -2, -0.10000001, 2, -2, 0.049985334, -2, 2, -0.10000001, -2, -2, 0.049985334, 2, 2, -0.10000001, 2, 0, 0.050000012, 0, 2, 0.049985334, -2, 2, 0.049985334, 2)
+
+[node name="Stone_Floor" type="StaticBody3D" unique_id=1472605135]
+
+[node name="floor_stone" parent="." unique_id=892593834 instance=ExtResource("1_yvqee")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1637529812]
+shape = SubResource("ConvexPolygonShape3D_3xyg8")
