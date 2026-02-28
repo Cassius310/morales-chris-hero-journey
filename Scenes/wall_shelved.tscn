@@ -1,4 +1,9 @@
-[gd_scene format=4 uid="uid://dce13gmetsek0"]
+[gd_scene format=4 uid="uid://cd0gbht0xfakm"]
+
+[ext_resource type="Texture2D" uid="uid://baniaxih3k8fs" path="res://Assets/brackeys_3d_game_assets/dungeon_assets/dungeon_albedo.png" id="1_mgdek"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0cnu8"]
+albedo_texture = ExtResource("1_mgdek")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_eitek"]
 resource_name = "DungeonMat"
@@ -44,4 +49,5 @@ shadow_mesh = SubResource("ArrayMesh_61llo")
 [node name="wall_shelved" type="Node3D" parent="." unique_id=1533951121]
 
 [node name="wall_shelves" type="MeshInstance3D" parent="wall_shelved" unique_id=1148838630]
+material_override = SubResource("StandardMaterial3D_0cnu8")
 mesh = SubResource("ArrayMesh_s0n4s")

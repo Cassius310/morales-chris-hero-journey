@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://df3e00v5y333b"]
+
+[ext_resource type="PackedScene" uid="uid://dx7xmbx3aenmg" path="res://Assets/brackeys_3d_game_assets/dungeon_assets/building/floor_wood.glb" id="1_plgc2"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_o4ncj"]
+points = PackedVector3Array(-2, -0.1, -2, -2, -0.1, 2, -2, 0.024995103, -2, 2, -0.1, -2, -2, 0.024995103, 2, 2, -0.1, 2, -2, 0.050000004, -1.4753327, -1.9753329, 0.050000004, -1.9753329, 2, 0.024995103, -2, -2, 0.050000004, 1.9749413, 2, 0.024995103, 2, 1.9749413, 0.050000004, -1.9753329, 2, 0.050000004, -1.4753327, 2, 0.050000004, 1.9749413)
+
+[node name="floor_wood" type="StaticBody3D" unique_id=1627907330]
+
+[node name="floor_wood" parent="." unique_id=481793169 instance=ExtResource("1_plgc2")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=2026528725]
+shape = SubResource("ConvexPolygonShape3D_o4ncj")

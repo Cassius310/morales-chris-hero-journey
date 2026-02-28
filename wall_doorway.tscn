@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://bbj71j7njqp1j"]
+
+[ext_resource type="PackedScene" uid="uid://c8516nva3lsj8" path="res://Assets/brackeys_3d_game_assets/dungeon_assets/building/wall_doorway.glb" id="1_x8ws4"]
+
+[node name="wall_doorway" type="Node3D" unique_id=763663127]
+
+[node name="wall_doorway2" parent="." unique_id=1572015223 instance=ExtResource("1_x8ws4")]
