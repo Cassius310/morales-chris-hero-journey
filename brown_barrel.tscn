@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://i087dshy7d8x"]
+
+[ext_resource type="PackedScene" uid="uid://dpt8ynioc4r1k" path="res://Assets/Brownbarrel.glb" id="1_tlcvk"]
+
+[node name="brown_barrel" type="StaticBody3D" unique_id=1833262987]
+
+[node name="Brownbarrel" parent="." unique_id=331069024 instance=ExtResource("1_tlcvk")]
+
+[editable path="Brownbarrel"]
