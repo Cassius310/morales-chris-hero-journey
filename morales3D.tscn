@@ -24,6 +24,7 @@
 [ext_resource type="PackedScene" uid="uid://bwanf5rusvihe" path="res://table_small.tscn" id="22_0c0me"]
 [ext_resource type="PackedScene" uid="uid://bi2277jejyea" path="res://crates_stacked.tscn" id="23_vb3xu"]
 [ext_resource type="PackedScene" uid="uid://cgmpg6m6wvgb4" path="res://banner_mounted.tscn" id="24_j0m1k"]
+[ext_resource type="PackedScene" uid="uid://i087dshy7d8x" path="res://brown_barrel.tscn" id="25_0c0me"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_hukum"]
 
@@ -38468,3 +38469,6 @@ transform = Transform3D(5.9604645e-08, 0, -1.0000001, 0, 1, 0, 1.0000001, 0, 5.9
 
 [node name="table_medium15" parent="." unique_id=201872478 instance=ExtResource("21_7onr7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -98.343, 0, -28.098)
+
+[node name="brown_barrel" parent="." unique_id=821473951 instance=ExtResource("25_0c0me")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -57.86808, 0.04998541, -46.892082)
