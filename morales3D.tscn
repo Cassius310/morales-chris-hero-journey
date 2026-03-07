@@ -10,6 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://1wmu2ac6nmrq" path="res://Scenes/torch.tscn" id="5_x103a"]
 [ext_resource type="PackedScene" uid="uid://df3e00v5y333b" path="res://floor_wood.tscn" id="5_xcoql"]
 [ext_resource type="PackedScene" uid="uid://c46q6js724lb" path="res://Scenes/chest.tscn" id="8_pfb2x"]
+[ext_resource type="PackedScene" uid="uid://be8mnf5bh1t32" path="res://fire.tscn" id="8_vb3xu"]
 [ext_resource type="PackedScene" uid="uid://bbj71j7njqp1j" path="res://wall_doorway.tscn" id="8_x103a"]
 [ext_resource type="PackedScene" uid="uid://de5e5wm4k5epw" path="res://ceiling.tscn" id="9_d5kfu"]
 [ext_resource type="PackedScene" uid="uid://ngjlo7phu48u" path="res://wall_shelved.tscn" id="9_xcoql"]
@@ -1399,7 +1400,7 @@ omni_range = 35.512
 transform = Transform3D(-5.9604645e-08, 0, -1, 0, 1, 0, 1, 0, -5.9604645e-08, 0, 0, 0)
 
 [node name="OmniLight3D11" type="OmniLight3D" parent="OmniLight3D31/OmniLight3D" unique_id=154698452]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -73.8, 0.3000002, 154.11401)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -73.8, 7.5252, 154.11401)
 light_color = Color(1, 0.61960787, 0.37254903, 1)
 light_energy = 8.302
 shadow_enabled = true
@@ -1408,10 +1409,12 @@ omni_range = 35.512
 [node name="torch" parent="OmniLight3D31/OmniLight3D/OmniLight3D11" unique_id=1017630578 instance=ExtResource("5_x103a")]
 transform = Transform3D(-0.9848077, 0, -0.17364821, 0, 1, 0, 0.17364821, 0, -0.9848077, 0, 0, 0)
 
+[node name="fire" parent="OmniLight3D31/OmniLight3D/OmniLight3D11" unique_id=1498564568 instance=ExtResource("8_vb3xu")]
+
 [node name="torch5" parent="OmniLight3D31/OmniLight3D" unique_id=1927862113 instance=ExtResource("5_x103a")]
 
 [node name="OmniLight3D55" type="OmniLight3D" parent="OmniLight3D31/OmniLight3D" unique_id=1850568819]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -73.8, 23.000002, 152.2)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -59.751003, 27.816801, 153.60489)
 light_color = Color(1, 0.61960787, 0.37254903, 1)
 light_energy = 8.302
 shadow_enabled = true
@@ -1420,8 +1423,10 @@ omni_range = 35.512
 [node name="torch" parent="OmniLight3D31/OmniLight3D/OmniLight3D55" unique_id=2057502198 instance=ExtResource("5_x103a")]
 transform = Transform3D(-1, 0, 5.9604645e-08, 0, 1, 0, -5.9604645e-08, 0, -1, 0, 0, 0)
 
+[node name="fire" parent="OmniLight3D31/OmniLight3D/OmniLight3D55" unique_id=875790597 instance=ExtResource("8_vb3xu")]
+
 [node name="OmniLight3D12" type="OmniLight3D" parent="OmniLight3D31/OmniLight3D" unique_id=2055668717]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -117.9, 0, 151.8)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -117.9, 0, 153.6063)
 light_color = Color(1, 0.61960787, 0.37254903, 1)
 light_energy = 5.889
 shadow_enabled = true
@@ -1430,8 +1435,11 @@ omni_range = 35.512
 [node name="torch" parent="OmniLight3D31/OmniLight3D/OmniLight3D12" unique_id=1860064284 instance=ExtResource("5_x103a")]
 transform = Transform3D(-1, 0, -5.9604645e-08, 0, 1, 0, 5.9604645e-08, 0, -1, 0, 0, 0)
 
+[node name="fire" parent="OmniLight3D31/OmniLight3D/OmniLight3D12" unique_id=863182444 instance=ExtResource("8_vb3xu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8027997, 0)
+
 [node name="OmniLight3D13" type="OmniLight3D" parent="OmniLight3D31/OmniLight3D" unique_id=126080152]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -163.5, 0, 152.69998)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -163.0986, 0, 152.69998)
 light_color = Color(1, 0.61960787, 0.37254903, 1)
 light_energy = 9.825
 shadow_enabled = true
@@ -1440,8 +1448,10 @@ omni_range = 35.512
 [node name="torch" parent="OmniLight3D31/OmniLight3D/OmniLight3D13" unique_id=1852400928 instance=ExtResource("5_x103a")]
 transform = Transform3D(-0.86602545, 0, 0.49999994, 0, 1, 0, -0.49999994, 0, -0.86602545, 0, 0, 0)
 
+[node name="fire" parent="OmniLight3D31/OmniLight3D/OmniLight3D13" unique_id=581029373 instance=ExtResource("8_vb3xu")]
+
 [node name="OmniLight3D46" type="OmniLight3D" parent="OmniLight3D31/OmniLight3D" unique_id=989242861]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -161.49301, 23.9, 148.68597)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -162.49652, 23.9, 148.68597)
 light_color = Color(1, 0.61960787, 0.37254903, 1)
 light_energy = 9.825
 shadow_enabled = true
@@ -1450,8 +1460,11 @@ omni_range = 35.512
 [node name="torch" parent="OmniLight3D31/OmniLight3D/OmniLight3D46" unique_id=1713466698 instance=ExtResource("5_x103a")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
 
+[node name="fire" parent="OmniLight3D31/OmniLight3D/OmniLight3D46" unique_id=1487036715 instance=ExtResource("8_vb3xu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.4013977, 0.80280113, 0)
+
 [node name="OmniLight3D14" type="OmniLight3D" parent="OmniLight3D31/OmniLight3D" unique_id=470918480]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -163.79999, 0, 109.399994)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -163.1979, 0, 109.399994)
 light_color = Color(1, 0.61960787, 0.37254903, 1)
 light_energy = 7.54
 shadow_enabled = true
@@ -1460,8 +1473,10 @@ omni_range = 35.512
 [node name="torch" parent="OmniLight3D31/OmniLight3D/OmniLight3D14" unique_id=1198915337 instance=ExtResource("5_x103a")]
 transform = Transform3D(0.17364818, 0, 0.9848077, 0, 1, 0, -0.9848077, 0, 0.17364818, 0, 0, 0)
 
+[node name="fire" parent="OmniLight3D31/OmniLight3D/OmniLight3D14" unique_id=633503276 instance=ExtResource("8_vb3xu")]
+
 [node name="OmniLight3D47" type="OmniLight3D" parent="OmniLight3D31/OmniLight3D" unique_id=728346977]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -163.79999, 29.300001, 109.399994)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -162.59583, 29.300001, 109.399994)
 light_color = Color(1, 0.61960787, 0.37254903, 1)
 light_energy = 7.54
 shadow_enabled = true
@@ -1469,6 +1484,9 @@ omni_range = 35.512
 
 [node name="torch" parent="OmniLight3D31/OmniLight3D/OmniLight3D47" unique_id=1383999077 instance=ExtResource("5_x103a")]
 transform = Transform3D(-4.4703484e-08, 0, 1, 0, 1, 0, -1, 0, -4.4703484e-08, 0, 0, 0)
+
+[node name="fire" parent="OmniLight3D31/OmniLight3D/OmniLight3D47" unique_id=1007520868 instance=ExtResource("8_vb3xu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8027992, 0)
 
 [node name="OmniLight3D15" type="OmniLight3D" parent="OmniLight3D31/OmniLight3D" unique_id=1321841789]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -163.79999, 0, 55.999992)
@@ -1480,6 +1498,8 @@ omni_range = 35.512
 [node name="torch" parent="OmniLight3D31/OmniLight3D/OmniLight3D15" unique_id=1264570753 instance=ExtResource("5_x103a")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
 
+[node name="fire" parent="OmniLight3D31/OmniLight3D/OmniLight3D15" unique_id=1421022798 instance=ExtResource("8_vb3xu")]
+
 [node name="OmniLight3D41" type="OmniLight3D" parent="OmniLight3D31/OmniLight3D" unique_id=775356861]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -163.79999, 29.1, 55.999992)
 light_color = Color(1, 0.61960787, 0.37254903, 1)
@@ -1490,8 +1510,10 @@ omni_range = 35.512
 [node name="torch" parent="OmniLight3D31/OmniLight3D/OmniLight3D41" unique_id=1220951931 instance=ExtResource("5_x103a")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
 
+[node name="fire" parent="OmniLight3D31/OmniLight3D/OmniLight3D41" unique_id=1800478030 instance=ExtResource("8_vb3xu")]
+
 [node name="OmniLight3D16" type="OmniLight3D" parent="OmniLight3D31/OmniLight3D" unique_id=1784423448]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -163.79999, 0, 7.8999863)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -162.79651, 0, 7.8999863)
 light_color = Color(1, 0.61960787, 0.37254903, 1)
 light_energy = 3.87
 shadow_enabled = true
@@ -1499,6 +1521,8 @@ omni_range = 35.512
 
 [node name="torch" parent="OmniLight3D31/OmniLight3D/OmniLight3D16" unique_id=1471685097 instance=ExtResource("5_x103a")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
+
+[node name="fire" parent="OmniLight3D31/OmniLight3D/OmniLight3D16" unique_id=86094375 instance=ExtResource("8_vb3xu")]
 
 [node name="OmniLight3D42" type="OmniLight3D" parent="OmniLight3D31/OmniLight3D" unique_id=1267813176]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -163.79999, 30.200003, 7.8999863)
@@ -1510,6 +1534,8 @@ omni_range = 35.512
 [node name="torch" parent="OmniLight3D31/OmniLight3D/OmniLight3D42" unique_id=1555247406 instance=ExtResource("5_x103a")]
 transform = Transform3D(0.34202015, 0, 0.9396926, 0, 1, 0, -0.9396926, 0, 0.34202015, 0, 0, 0)
 
+[node name="fire" parent="OmniLight3D31/OmniLight3D/OmniLight3D42" unique_id=1131084216 instance=ExtResource("8_vb3xu")]
+
 [node name="OmniLight3D17" type="OmniLight3D" parent="OmniLight3D31/OmniLight3D" unique_id=1443643149]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -157.6, 0, -5.793007)
 light_color = Color(1, 0.61960787, 0.37254903, 1)
@@ -1518,6 +1544,9 @@ shadow_enabled = true
 omni_range = 35.512
 
 [node name="torch" parent="OmniLight3D31/OmniLight3D/OmniLight3D17" unique_id=204770543 instance=ExtResource("5_x103a")]
+
+[node name="fire" parent="OmniLight3D31/OmniLight3D/OmniLight3D17" unique_id=1871209813 instance=ExtResource("8_vb3xu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2041998, 0)
 
 [node name="OmniLight3D43" type="OmniLight3D" parent="OmniLight3D31/OmniLight3D" unique_id=1772293479]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -157.6, 30.4, -4.5000076)
@@ -1528,6 +1557,8 @@ omni_range = 35.512
 
 [node name="torch" parent="OmniLight3D31/OmniLight3D/OmniLight3D43" unique_id=295853856 instance=ExtResource("5_x103a")]
 
+[node name="fire" parent="OmniLight3D31/OmniLight3D/OmniLight3D43" unique_id=1941014588 instance=ExtResource("8_vb3xu")]
+
 [node name="OmniLight3D18" type="OmniLight3D" parent="OmniLight3D31/OmniLight3D" unique_id=117422990]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -130.6, 14.6, -5.400009)
 light_color = Color(1, 0.61960787, 0.37254903, 1)
@@ -1536,6 +1567,8 @@ shadow_bias = 7.124
 omni_range = 35.512
 
 [node name="torch" parent="OmniLight3D31/OmniLight3D/OmniLight3D18" unique_id=61883424 instance=ExtResource("5_x103a")]
+
+[node name="fire" parent="OmniLight3D31/OmniLight3D/OmniLight3D18" unique_id=805026170 instance=ExtResource("8_vb3xu")]
 
 [node name="OmniLight3D44" type="OmniLight3D" parent="OmniLight3D31/OmniLight3D" unique_id=1534770429]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -130.6, 28.499998, -4.900009)
@@ -1546,8 +1579,10 @@ omni_range = 35.512
 
 [node name="torch" parent="OmniLight3D31/OmniLight3D/OmniLight3D44" unique_id=923379383 instance=ExtResource("5_x103a")]
 
+[node name="fire" parent="OmniLight3D31/OmniLight3D/OmniLight3D44" unique_id=851025210 instance=ExtResource("8_vb3xu")]
+
 [node name="OmniLight3D19" type="OmniLight3D" parent="OmniLight3D31/OmniLight3D" unique_id=2094467357]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -107.00001, 13.5, -4.1000137)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -117.23571, -0.34829998, -7.511917)
 light_color = Color(1, 0.61960787, 0.37254903, 1)
 light_energy = 6.584
 shadow_enabled = true
@@ -1555,14 +1590,19 @@ omni_range = 35.512
 
 [node name="torch" parent="OmniLight3D31/OmniLight3D/OmniLight3D19" unique_id=2135633370 instance=ExtResource("5_x103a")]
 
+[node name="fire" parent="OmniLight3D31/OmniLight3D/OmniLight3D19" unique_id=935490285 instance=ExtResource("8_vb3xu")]
+
 [node name="OmniLight3D20" type="OmniLight3D" parent="OmniLight3D31/OmniLight3D" unique_id=1249186959]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -74.5, 0, -4.8000107)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -74.5, 0, -8.211914)
 light_color = Color(1, 0.61960787, 0.37254903, 1)
 shadow_enabled = true
 shadow_bias = 7.243
 omni_range = 35.512
 
 [node name="torch" parent="OmniLight3D31/OmniLight3D/OmniLight3D20" unique_id=1181545582 instance=ExtResource("5_x103a")]
+
+[node name="fire" parent="OmniLight3D31/OmniLight3D/OmniLight3D20" unique_id=1719910825 instance=ExtResource("8_vb3xu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6020999, 0)
 
 [node name="OmniLight3D2" type="OmniLight3D" parent="OmniLight3D31/OmniLight3D" unique_id=2032110704]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 52.5, 0, -7.6293945e-06)
@@ -1574,6 +1614,8 @@ omni_range = 35.512
 [node name="torch" parent="OmniLight3D31/OmniLight3D/OmniLight3D2" unique_id=1696510031 instance=ExtResource("5_x103a")]
 transform = Transform3D(0.64278764, 0, -0.76604444, 0, 1, 0, 0.76604444, 0, 0.64278764, 0, 0, 0)
 
+[node name="fire" parent="OmniLight3D31/OmniLight3D/OmniLight3D2" unique_id=1807877418 instance=ExtResource("8_vb3xu")]
+
 [node name="OmniLight3D23" type="OmniLight3D" parent="OmniLight3D31/OmniLight3D" unique_id=1589526919]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 52.5, 24.6, -7.6293945e-06)
 light_color = Color(1, 0.61960787, 0.37254903, 1)
@@ -1584,6 +1626,8 @@ omni_range = 35.512
 [node name="torch" parent="OmniLight3D31/OmniLight3D/OmniLight3D23" unique_id=2075143407 instance=ExtResource("5_x103a")]
 transform = Transform3D(0.64278764, 0, -0.76604444, 0, 1, 0, 0.76604444, 0, 0.64278764, 0, 0, 0)
 
+[node name="fire" parent="OmniLight3D31/OmniLight3D/OmniLight3D23" unique_id=409329627 instance=ExtResource("8_vb3xu")]
+
 [node name="OmniLight3D45" type="OmniLight3D" parent="OmniLight3D31/OmniLight3D" unique_id=889409440]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 58.199997, 24.6, -7.6293945e-06)
 light_color = Color(1, 0.61960787, 0.37254903, 1)
@@ -1593,6 +1637,8 @@ omni_range = 35.512
 
 [node name="torch" parent="OmniLight3D31/OmniLight3D/OmniLight3D45" unique_id=290618269 instance=ExtResource("5_x103a")]
 transform = Transform3D(0.49999997, 0, 0.86602545, 0, 1, 0, -0.86602545, 0, 0.49999997, 0, 0, 0)
+
+[node name="fire" parent="OmniLight3D31/OmniLight3D/OmniLight3D45" unique_id=1927900439 instance=ExtResource("8_vb3xu")]
 
 [node name="OmniLight3D53" type="OmniLight3D" parent="OmniLight3D31/OmniLight3D" unique_id=1379921283]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60.799995, 56.399994, 10.199989)
@@ -13142,8 +13188,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2475967, -6.1000004, -169.7
 [node name="floor_wood226" parent="OmniLight3D31/OmniLight3D/OmniLight3D4" unique_id=1333509678 instance=ExtResource("5_xcoql")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2475967, -6.1000004, -173.71501)
 
+[node name="fire" parent="OmniLight3D31/OmniLight3D" unique_id=1311186166 instance=ExtResource("8_vb3xu")]
+
 [node name="OmniLight3D3" type="OmniLight3D" parent="OmniLight3D31/OmniLight3D" unique_id=1890891312]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -41.4, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -41.4, 0, -7.7601013)
 light_color = Color(1, 0.61960787, 0.37254903, 1)
 light_energy = 6.587
 shadow_enabled = true
@@ -13151,8 +13199,10 @@ omni_range = 24.7
 
 [node name="torch" parent="OmniLight3D31/OmniLight3D/OmniLight3D3" unique_id=1196718604 instance=ExtResource("5_x103a")]
 
+[node name="fire" parent="OmniLight3D31/OmniLight3D/OmniLight3D3" unique_id=2008622208 instance=ExtResource("8_vb3xu")]
+
 [node name="OmniLight3D21" type="OmniLight3D" parent="OmniLight3D31/OmniLight3D" unique_id=1772700468]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -41.4, 23.000002, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39.393, 23.000002, -7.4259033)
 light_color = Color(1, 0.61960787, 0.37254903, 1)
 light_energy = 14.143
 shadow_enabled = true
@@ -13160,6 +13210,8 @@ omni_range = 24.7
 
 [node name="torch" parent="OmniLight3D31/OmniLight3D/OmniLight3D21" unique_id=881103945 instance=ExtResource("5_x103a")]
 transform = Transform3D(0.9848077, 0, -0.17364815, 0, 1, 0, 0.17364815, 0, 0.9848077, 0, 0, 0)
+
+[node name="fire" parent="OmniLight3D31/OmniLight3D/OmniLight3D21/torch" unique_id=1041734653 instance=ExtResource("8_vb3xu")]
 
 [node name="OmniLight3D29" type="OmniLight3D" parent="OmniLight3D31/OmniLight3D" unique_id=2060378899]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -52.300003, 24.100002, 73.99999)
@@ -13245,7 +13297,7 @@ shadow_enabled = true
 transform = Transform3D(-5.9604645e-08, 0, -1, 0, 1, 0, 1, 0, -5.9604645e-08, 0, 0, 0)
 
 [node name="OmniLight3D59" type="OmniLight3D" parent="OmniLight3D31/OmniLight3D" unique_id=1140934761]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -173.986, 26.599997, 8.596001)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -165.55664, 26.599997, 8.596001)
 light_color = Color(1, 0.61960787, 0.37254903, 1)
 light_energy = 7.349
 shadow_enabled = true
@@ -13253,7 +13305,11 @@ shadow_enabled = true
 [node name="torch" parent="OmniLight3D31/OmniLight3D/OmniLight3D59" unique_id=303939427 instance=ExtResource("5_x103a")]
 transform = Transform3D(-5.9604645e-08, 0, -1, 0, 1, 0, 1, 0, -5.9604645e-08, 0, 0, 0)
 
+[node name="fire" parent="OmniLight3D31/OmniLight3D/OmniLight3D59" unique_id=890728596 instance=ExtResource("8_vb3xu")]
+
 [node name="torch" parent="OmniLight3D31" unique_id=1260756680 instance=ExtResource("5_x103a")]
+
+[node name="fire" parent="OmniLight3D31" unique_id=1790719853 instance=ExtResource("8_vb3xu")]
 
 [node name="Stone_Floor" parent="." unique_id=2097442141 instance=ExtResource("1_whe85")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -150.52501, 0, -80.28)
