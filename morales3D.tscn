@@ -15,6 +15,7 @@
 [ext_resource type="PackedScene" uid="uid://de5e5wm4k5epw" path="res://ceiling.tscn" id="9_d5kfu"]
 [ext_resource type="PackedScene" uid="uid://ngjlo7phu48u" path="res://wall_shelved.tscn" id="9_xcoql"]
 [ext_resource type="PackedScene" uid="uid://ca1cie3eoskja" path="res://Scenes/wall_arched_window.tscn" id="10_rpjmf"]
+[ext_resource type="PackedScene" uid="uid://dycaykni3pwix" path="res://white_barrels.tscn" id="10_vb3xu"]
 [ext_resource type="PackedScene" uid="uid://b177f5vn1njk5" path="res://wall_corner.tscn" id="15_6rkl2"]
 [ext_resource type="PackedScene" uid="uid://5uun8rjpxtgp" path="res://wall_cracked.tscn" id="16_kddmw"]
 [ext_resource type="PackedScene" uid="uid://qdkjqs8d4sln" path="res://Scenes/wall_arched_with_collider.tscn" id="17_57cm5"]
@@ -25,7 +26,6 @@
 [ext_resource type="PackedScene" uid="uid://bwanf5rusvihe" path="res://table_small.tscn" id="22_0c0me"]
 [ext_resource type="PackedScene" uid="uid://bi2277jejyea" path="res://crates_stacked.tscn" id="23_vb3xu"]
 [ext_resource type="PackedScene" uid="uid://cgmpg6m6wvgb4" path="res://banner_mounted.tscn" id="24_j0m1k"]
-[ext_resource type="PackedScene" uid="uid://i087dshy7d8x" path="res://brown_barrel.tscn" id="25_0c0me"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_hukum"]
 
@@ -13306,6 +13306,9 @@ shadow_enabled = true
 transform = Transform3D(-5.9604645e-08, 0, -1, 0, 1, 0, 1, 0, -5.9604645e-08, 0, 0, 0)
 
 [node name="fire" parent="OmniLight3D31/OmniLight3D/OmniLight3D59" unique_id=890728596 instance=ExtResource("8_vb3xu")]
+
+[node name="White_barrels" parent="OmniLight3D31/OmniLight3D" unique_id=511232998 instance=ExtResource("10_vb3xu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -99.84211, -5.0500145, -1.2778549)
 
 [node name="torch" parent="OmniLight3D31" unique_id=1260756680 instance=ExtResource("5_x103a")]
 
@@ -38526,5 +38529,5 @@ transform = Transform3D(5.9604645e-08, 0, -1.0000001, 0, 1, 0, 1.0000001, 0, 5.9
 [node name="table_medium15" parent="." unique_id=201872478 instance=ExtResource("21_7onr7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -98.343, 0, -28.098)
 
-[node name="brown_barrel" parent="." unique_id=821473951 instance=ExtResource("25_0c0me")]
+[node name="brown_barrel" parent="." unique_id=821473951]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -57.86808, 0.04998541, -46.892082)

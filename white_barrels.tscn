@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://dycaykni3pwix"]
+
+[ext_resource type="PackedScene" uid="uid://c3y5udlfs7ku6" path="res://Assets/Brownbarrel.glb" id="1_wq5wv"]
+
+[node name="White_barrels" unique_id=511232998 instance=ExtResource("1_wq5wv")]
