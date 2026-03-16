@@ -160,3 +160,4 @@ autoplay = &"Init"
 [node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=1162444036]
 light_color = Color(0.86, 0.4156667, 0, 1)
 light_energy = 2.877
+omni_range = 8.034
