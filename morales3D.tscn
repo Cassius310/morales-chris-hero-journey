@@ -1,6 +1,5 @@
 [gd_scene format=3 uid="uid://bl2g3ab2b2kms"]
 
-[ext_resource type="PackedScene" uid="uid://bs72ogkvdd7d6" path="res://AddOns/proto_controller/proto_controller.tscn" id="1_et1q5"]
 [ext_resource type="PackedScene" uid="uid://cyww20mmomjoj" path="res://Scenes/stone_floor.tscn" id="1_whe85"]
 [ext_resource type="PackedScene" uid="uid://bhyg1xfji6svo" path="res://Scenes/mat_pillar.tscn" id="2_pfb2x"]
 [ext_resource type="PackedScene" uid="uid://bia300b7vraio" path="res://Scenes/wall.tscn" id="3_ddg8r"]
@@ -24,6 +23,7 @@
 [ext_resource type="PackedScene" uid="uid://bi2277jejyea" path="res://crates_stacked.tscn" id="23_vb3xu"]
 [ext_resource type="PackedScene" uid="uid://cgmpg6m6wvgb4" path="res://banner_mounted.tscn" id="24_j0m1k"]
 [ext_resource type="PackedScene" uid="uid://ouiedw17gnkq" path="res://Scenes/walled_arched_with_collider.tscn" id="25_0c0me"]
+[ext_resource type="PackedScene" uid="uid://dv56fqq3qa51r" path="res://player_os.tscn" id="26_vb3xu"]
 [ext_resource type="PackedScene" uid="uid://ngjlo7phu48u" path="res://wall_shelved.tscn" id="27_0stu3"]
 [ext_resource type="PackedScene" uid="uid://b57q30lx0nm0e" path="res://Scenes/sword_shield.tscn" id="28_0stu3"]
 
@@ -1316,9 +1316,6 @@ material_override = SubResource("StandardMaterial3D_65gji")
 use_collision = true
 radius = 0.7
 height = 0.15
-
-[node name="ProtoController" parent="." unique_id=1257855596 instance=ExtResource("1_et1q5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -83.565704, 1.3000001, -73.3861)
 
 [node name="OmniLight3D31" type="OmniLight3D" parent="." unique_id=1067860572]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -50.2, 21.400002, 83.200005)
@@ -20172,3 +20169,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.028, 0, -1.9073486e-06)
 
 [node name="Wall3" parent="walled_arched_with_collider" unique_id=1455767145 instance=ExtResource("3_ddg8r")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.042007, 0, -1.9073486e-06)
+
+[node name="Player_os" parent="." unique_id=1678518725 instance=ExtResource("26_vb3xu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -79.38187, 0.051702708, -72.38537)

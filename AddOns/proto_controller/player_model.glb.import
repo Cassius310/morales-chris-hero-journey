@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://xdf0j73yqh35"
-path="res://.godot/imported/pillar.glb-9e4317353631b60df4ef2cc983ab1edd.scn"
+uid="uid://ds1w4vinqriic"
+path="res://.godot/imported/player_model.glb-aa0ccb3cac4a95e40d7eb48ce9ecb41c.scn"
 
 [deps]
 
-source_file="res://Assets/brackeys_3d_game_assets/dungeon_assets/building/pillar.glb"
-dest_files=["res://.godot/imported/pillar.glb-9e4317353631b60df4ef2cc983ab1edd.scn"]
+source_file="res://AddOns/proto_controller/player_model.glb"
+dest_files=["res://.godot/imported/player_model.glb-aa0ccb3cac4a95e40d7eb48ce9ecb41c.scn"]
 
 [params]
 
@@ -36,17 +36,17 @@ animation/import_rest_as_RESET=false
 import_script/path=""
 materials/extract=0
 materials/extract_format=0
-materials/extract_path=""
+materials/extract_path="res://scripts"
 _subresources={
 "materials": {
-"DungeonMat": {
+"Beta_Joints_MAT1": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://Assets/brackeys_3d_game_assets/dungeon_assets/building/mat_building.tres",
-"use_external/path": "uid://bqbqs3y44wtmp"
+"use_external/fallback_path": "",
+"use_external/path": ""
 }
 },
 "meshes": {
-"pillar_pillar": {
+"player_model_Beta_Surface_ncl1_1": {
 "generate/lightmap_uv": 0,
 "generate/lods": 0,
 "generate/shadow_meshes": 0,
