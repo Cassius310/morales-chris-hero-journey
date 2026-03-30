@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cngogdme1rxrt"
-path="res://.godot/imported/chair.glb-5c405cce81749be0d0b380eb1ca2bac2.scn"
+path="res://.godot/imported/chair.glb-9df2d3f56d3137cfdf3e09d6161806c6.scn"
 
 [deps]
 
-source_file="res://Assets/brackeys_3d_game_assets/dungeon_assets/props/chair.glb"
-dest_files=["res://.godot/imported/chair.glb-5c405cce81749be0d0b380eb1ca2bac2.scn"]
+source_file="res://assets/brackeys_3d_game_assets/dungeon_assets/props/chair.glb"
+dest_files=["res://.godot/imported/chair.glb-9df2d3f56d3137cfdf3e09d6161806c6.scn"]
 
 [params]
 
@@ -41,7 +41,7 @@ _subresources={
 "materials": {
 "texture": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://Assets/brackeys_3d_game_assets/dungeon_assets/props/mat_props.tres",
+"use_external/fallback_path": "res://assets/brackeys_3d_game_assets/dungeon_assets/props/mat_props.tres",
 "use_external/path": "uid://c5wxhxf8hbef8"
 }
 }

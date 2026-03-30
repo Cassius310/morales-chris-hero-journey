@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bosnyux44d8n"
-path.s3tc="res://.godot/imported/T_fire01.png-7bf5efe950561be2f2fe5612f830374d.s3tc.ctex"
+path.s3tc="res://.godot/imported/T_fire01.png-051dc49c437c034598a333f921d148f1.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/T_fire01.png"
-dest_files=["res://.godot/imported/T_fire01.png-7bf5efe950561be2f2fe5612f830374d.s3tc.ctex"]
+source_file="res://assets/T_fire01.png"
+dest_files=["res://.godot/imported/T_fire01.png-051dc49c437c034598a333f921d148f1.s3tc.ctex"]
 
 [params]
 

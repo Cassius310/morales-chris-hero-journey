@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dx7xmbx3aenmg"
-path="res://.godot/imported/floor_wood.glb-f02a9491a325c460db73a590360dc6cb.scn"
+path="res://.godot/imported/floor_wood.glb-8de3fc80067992b2e02311efec8a295b.scn"
 
 [deps]
 
-source_file="res://Assets/brackeys_3d_game_assets/dungeon_assets/building/floor_wood.glb"
-dest_files=["res://.godot/imported/floor_wood.glb-f02a9491a325c460db73a590360dc6cb.scn"]
+source_file="res://assets/brackeys_3d_game_assets/dungeon_assets/building/floor_wood.glb"
+dest_files=["res://.godot/imported/floor_wood.glb-8de3fc80067992b2e02311efec8a295b.scn"]
 
 [params]
 
@@ -41,7 +41,7 @@ _subresources={
 "materials": {
 "DungeonMat": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://Assets/brackeys_3d_game_assets/dungeon_assets/building/mat_building.tres",
+"use_external/fallback_path": "res://assets/brackeys_3d_game_assets/dungeon_assets/building/mat_building.tres",
 "use_external/path": "uid://bqbqs3y44wtmp"
 }
 }

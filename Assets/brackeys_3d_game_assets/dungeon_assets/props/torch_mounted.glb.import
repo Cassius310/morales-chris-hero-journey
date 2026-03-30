@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d32p23up0nppk"
-path="res://.godot/imported/torch_mounted.glb-05498ed3300ebd1820c35f3e3cec5b90.scn"
+path="res://.godot/imported/torch_mounted.glb-029e4fa2c8c9f196038aacc8fc603080.scn"
 
 [deps]
 
-source_file="res://Assets/brackeys_3d_game_assets/dungeon_assets/props/torch_mounted.glb"
-dest_files=["res://.godot/imported/torch_mounted.glb-05498ed3300ebd1820c35f3e3cec5b90.scn"]
+source_file="res://assets/brackeys_3d_game_assets/dungeon_assets/props/torch_mounted.glb"
+dest_files=["res://.godot/imported/torch_mounted.glb-029e4fa2c8c9f196038aacc8fc603080.scn"]
 
 [params]
 
@@ -41,7 +41,7 @@ _subresources={
 "materials": {
 "DungeonMat": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://Assets/brackeys_3d_game_assets/dungeon_assets/props/mat_props.tres",
+"use_external/fallback_path": "res://assets/brackeys_3d_game_assets/dungeon_assets/props/mat_props.tres",
 "use_external/path": "uid://c5wxhxf8hbef8"
 }
 }

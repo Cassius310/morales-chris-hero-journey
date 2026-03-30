@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b3qgc52q6y3wm"
-path="res://.godot/imported/coin_stack.glb-56b8599db1b8780b01bffb46305d1b75.scn"
+path="res://.godot/imported/coin_stack.glb-85a2cb4162f6177ab6b686d2caf361f9.scn"
 
 [deps]
 
-source_file="res://Assets/brackeys_3d_game_assets/dungeon_assets/props/coin_stack.glb"
-dest_files=["res://.godot/imported/coin_stack.glb-56b8599db1b8780b01bffb46305d1b75.scn"]
+source_file="res://assets/brackeys_3d_game_assets/dungeon_assets/props/coin_stack.glb"
+dest_files=["res://.godot/imported/coin_stack.glb-85a2cb4162f6177ab6b686d2caf361f9.scn"]
 
 [params]
 
@@ -41,7 +41,7 @@ _subresources={
 "materials": {
 "DungeonMat": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://Assets/brackeys_3d_game_assets/dungeon_assets/props/mat_props.tres",
+"use_external/fallback_path": "res://assets/brackeys_3d_game_assets/dungeon_assets/props/mat_props.tres",
 "use_external/path": "uid://c5wxhxf8hbef8"
 }
 }

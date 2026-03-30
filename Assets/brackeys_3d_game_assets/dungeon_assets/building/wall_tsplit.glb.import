@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://w3x1q8jhwwsd"
-path="res://.godot/imported/wall_tsplit.glb-6d6602bfaa0ba8866e212d8f631ac236.scn"
+path="res://.godot/imported/wall_tsplit.glb-bc6faae4bada1f7d0d0d8635ebf65624.scn"
 
 [deps]
 
-source_file="res://Assets/brackeys_3d_game_assets/dungeon_assets/building/wall_tsplit.glb"
-dest_files=["res://.godot/imported/wall_tsplit.glb-6d6602bfaa0ba8866e212d8f631ac236.scn"]
+source_file="res://assets/brackeys_3d_game_assets/dungeon_assets/building/wall_tsplit.glb"
+dest_files=["res://.godot/imported/wall_tsplit.glb-bc6faae4bada1f7d0d0d8635ebf65624.scn"]
 
 [params]
 

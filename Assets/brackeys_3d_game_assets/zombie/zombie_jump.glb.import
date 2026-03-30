@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dw3m2xxjenwek"
-path="res://.godot/imported/zombie_jump.glb-25364f45d1044e04c5326238fe469653.scn"
+path="res://.godot/imported/zombie_jump.glb-474233556259dd72e5e4bd94e65849fd.scn"
 
 [deps]
 
-source_file="res://Assets/brackeys_3d_game_assets/zombie/zombie_jump.glb"
-dest_files=["res://.godot/imported/zombie_jump.glb-25364f45d1044e04c5326238fe469653.scn"]
+source_file="res://assets/brackeys_3d_game_assets/zombie/zombie_jump.glb"
+dest_files=["res://.godot/imported/zombie_jump.glb-474233556259dd72e5e4bd94e65849fd.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c4mr1lgsmbuyt"
-path="res://.godot/imported/wall_window_closed.glb-0cd4db88af8f6c0e63a725ee7e151c8f.scn"
+path="res://.godot/imported/wall_window_closed.glb-29acb532ff8aee61513b6d433fd23654.scn"
 
 [deps]
 
-source_file="res://Assets/brackeys_3d_game_assets/dungeon_assets/building/wall_window_closed.glb"
-dest_files=["res://.godot/imported/wall_window_closed.glb-0cd4db88af8f6c0e63a725ee7e151c8f.scn"]
+source_file="res://assets/brackeys_3d_game_assets/dungeon_assets/building/wall_window_closed.glb"
+dest_files=["res://.godot/imported/wall_window_closed.glb-29acb532ff8aee61513b6d433fd23654.scn"]
 
 [params]
 
@@ -41,7 +41,7 @@ _subresources={
 "materials": {
 "DungeonMat": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://Assets/brackeys_3d_game_assets/dungeon_assets/building/mat_building.tres",
+"use_external/fallback_path": "res://assets/brackeys_3d_game_assets/dungeon_assets/building/mat_building.tres",
 "use_external/path": "uid://bqbqs3y44wtmp"
 }
 }

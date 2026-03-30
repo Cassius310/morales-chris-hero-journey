@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://lebwq7y4tc3r"
-path="res://.godot/imported/zombie_idle.glb-5f7273f6c6061cf8fa769c4087c0c288.scn"
+path="res://.godot/imported/zombie_idle.glb-9f051d0c3a2c7fe8f3f7effc3ee99250.scn"
 
 [deps]
 
-source_file="res://Assets/brackeys_3d_game_assets/zombie/zombie_idle.glb"
-dest_files=["res://.godot/imported/zombie_idle.glb-5f7273f6c6061cf8fa769c4087c0c288.scn"]
+source_file="res://assets/brackeys_3d_game_assets/zombie/zombie_idle.glb"
+dest_files=["res://.godot/imported/zombie_idle.glb-9f051d0c3a2c7fe8f3f7effc3ee99250.scn"]
 
 [params]
 

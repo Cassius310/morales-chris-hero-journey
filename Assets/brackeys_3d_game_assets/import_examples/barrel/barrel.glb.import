@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://gefawaxg162l"
-path="res://.godot/imported/barrel.glb-377e2a7a70b654b775bfda7e78f69cb1.scn"
+path="res://.godot/imported/barrel.glb-5780fe6f2efab38ef1c369984d33a3dc.scn"
 
 [deps]
 
-source_file="res://Assets/brackeys_3d_game_assets/import_examples/barrel/barrel.glb"
-dest_files=["res://.godot/imported/barrel.glb-377e2a7a70b654b775bfda7e78f69cb1.scn"]
+source_file="res://assets/brackeys_3d_game_assets/import_examples/barrel/barrel.glb"
+dest_files=["res://.godot/imported/barrel.glb-5780fe6f2efab38ef1c369984d33a3dc.scn"]
 
 [params]
 

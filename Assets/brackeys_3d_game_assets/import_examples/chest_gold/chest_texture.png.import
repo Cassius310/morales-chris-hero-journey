@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d1dl4psalk1rk"
-path.s3tc="res://.godot/imported/chest_texture.png-6063fcdf3771edf8da20f83894a3d29a.s3tc.ctex"
+path.s3tc="res://.godot/imported/chest_texture.png-484d5965dfd677136a235c1a9dc1cc1b.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Assets/brackeys_3d_game_assets/import_examples/chest_gold/chest_texture.png"
-dest_files=["res://.godot/imported/chest_texture.png-6063fcdf3771edf8da20f83894a3d29a.s3tc.ctex"]
+source_file="res://assets/brackeys_3d_game_assets/import_examples/chest_gold/chest_texture.png"
+dest_files=["res://.godot/imported/chest_texture.png-484d5965dfd677136a235c1a9dc1cc1b.s3tc.ctex"]
 
 [params]
 

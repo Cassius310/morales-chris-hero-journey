@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bww5o3k0o7s50"
-path="res://.godot/imported/wall_arched_with_collider.glb-8ceb7a5fae1ac11a13ec1d1cd97c0d8e.scn"
+path="res://.godot/imported/wall_arched_with_collider.glb-60c989cdd8c29cbef0325f2bfe7826eb.scn"
 
 [deps]
 
-source_file="res://Assets/brackeys_3d_game_assets/import_examples/wall_arched_with_collider.glb"
-dest_files=["res://.godot/imported/wall_arched_with_collider.glb-8ceb7a5fae1ac11a13ec1d1cd97c0d8e.scn"]
+source_file="res://assets/brackeys_3d_game_assets/import_examples/wall_arched_with_collider.glb"
+dest_files=["res://.godot/imported/wall_arched_with_collider.glb-60c989cdd8c29cbef0325f2bfe7826eb.scn"]
 
 [params]
 
@@ -41,7 +41,7 @@ _subresources={
 "materials": {
 "DungeonMat": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://Assets/brackeys_3d_game_assets/dungeon_assets/props/mat_props.tres",
+"use_external/fallback_path": "res://assets/brackeys_3d_game_assets/dungeon_assets/props/mat_props.tres",
 "use_external/path": "uid://c5wxhxf8hbef8"
 }
 }

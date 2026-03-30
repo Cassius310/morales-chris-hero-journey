@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bi5l30py4by30"
-path="res://.godot/imported/candles.glb-e116fb8b6d1d956befd5ffd538b75a1c.scn"
+path="res://.godot/imported/candles.glb-37595998d44c725f96242268d702fc34.scn"
 
 [deps]
 
-source_file="res://Assets/brackeys_3d_game_assets/dungeon_assets/props/candles.glb"
-dest_files=["res://.godot/imported/candles.glb-e116fb8b6d1d956befd5ffd538b75a1c.scn"]
+source_file="res://assets/brackeys_3d_game_assets/dungeon_assets/props/candles.glb"
+dest_files=["res://.godot/imported/candles.glb-37595998d44c725f96242268d702fc34.scn"]
 
 [params]
 
@@ -41,7 +41,7 @@ _subresources={
 "materials": {
 "DungeonMat": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://Assets/brackeys_3d_game_assets/dungeon_assets/props/mat_props.tres",
+"use_external/fallback_path": "res://assets/brackeys_3d_game_assets/dungeon_assets/props/mat_props.tres",
 "use_external/path": "uid://c5wxhxf8hbef8"
 }
 }

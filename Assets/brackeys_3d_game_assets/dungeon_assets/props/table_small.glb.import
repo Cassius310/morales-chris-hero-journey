@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://737rf804hykm"
-path="res://.godot/imported/table_small.glb-463f2defe2b5c7474217072231e01497.scn"
+path="res://.godot/imported/table_small.glb-4e87502be7485c8c9db393028d118733.scn"
 
 [deps]
 
-source_file="res://Assets/brackeys_3d_game_assets/dungeon_assets/props/table_small.glb"
-dest_files=["res://.godot/imported/table_small.glb-463f2defe2b5c7474217072231e01497.scn"]
+source_file="res://assets/brackeys_3d_game_assets/dungeon_assets/props/table_small.glb"
+dest_files=["res://.godot/imported/table_small.glb-4e87502be7485c8c9db393028d118733.scn"]
 
 [params]
 
@@ -41,7 +41,7 @@ _subresources={
 "materials": {
 "DungeonMat": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://Assets/brackeys_3d_game_assets/dungeon_assets/props/mat_props.tres",
+"use_external/fallback_path": "res://assets/brackeys_3d_game_assets/dungeon_assets/props/mat_props.tres",
 "use_external/path": "uid://c5wxhxf8hbef8"
 }
 }

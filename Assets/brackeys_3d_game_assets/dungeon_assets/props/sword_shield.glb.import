@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bcjo2c620mrio"
-path="res://.godot/imported/sword_shield.glb-461c4079b7aa636b67141741f7be6fc8.scn"
+path="res://.godot/imported/sword_shield.glb-ed12996dc98317d420657867d55bcb9e.scn"
 
 [deps]
 
-source_file="res://Assets/brackeys_3d_game_assets/dungeon_assets/props/sword_shield.glb"
-dest_files=["res://.godot/imported/sword_shield.glb-461c4079b7aa636b67141741f7be6fc8.scn"]
+source_file="res://assets/brackeys_3d_game_assets/dungeon_assets/props/sword_shield.glb"
+dest_files=["res://.godot/imported/sword_shield.glb-ed12996dc98317d420657867d55bcb9e.scn"]
 
 [params]
 
@@ -41,7 +41,7 @@ _subresources={
 "materials": {
 "DungeonMat": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://Assets/brackeys_3d_game_assets/dungeon_assets/props/mat_props.tres",
+"use_external/fallback_path": "res://assets/brackeys_3d_game_assets/dungeon_assets/props/mat_props.tres",
 "use_external/path": "uid://c5wxhxf8hbef8"
 }
 }

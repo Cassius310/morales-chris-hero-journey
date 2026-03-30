@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://badog8mlnhmui"
-path="res://.godot/imported/chest_gold.glb-6d59f2af4a1eb85e4c8be5e9f15c1588.scn"
+path="res://.godot/imported/chest_gold.glb-1d9fd7f74f61594eff940db123660a76.scn"
 
 [deps]
 
-source_file="res://Assets/brackeys_3d_game_assets/import_examples/chest_gold/chest_gold.glb"
-dest_files=["res://.godot/imported/chest_gold.glb-6d59f2af4a1eb85e4c8be5e9f15c1588.scn"]
+source_file="res://assets/brackeys_3d_game_assets/import_examples/chest_gold/chest_gold.glb"
+dest_files=["res://.godot/imported/chest_gold.glb-1d9fd7f74f61594eff940db123660a76.scn"]
 
 [params]
 
@@ -41,7 +41,7 @@ _subresources={
 "materials": {
 "DungeonMat": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://Assets/brackeys_3d_game_assets/import_examples/chest_gold/mat_chest.tres",
+"use_external/fallback_path": "res://assets/brackeys_3d_game_assets/import_examples/chest_gold/mat_chest.tres",
 "use_external/path": "uid://d3y6xnm30wgjx"
 }
 }

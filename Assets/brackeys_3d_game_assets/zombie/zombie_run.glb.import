@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://gl7ujuj1p3cp"
-path="res://.godot/imported/zombie_run.glb-171641a60f797307b992c868530a1e54.scn"
+path="res://.godot/imported/zombie_run.glb-ac1e1870aebe89e6a150680bb4387d76.scn"
 
 [deps]
 
-source_file="res://Assets/brackeys_3d_game_assets/zombie/zombie_run.glb"
-dest_files=["res://.godot/imported/zombie_run.glb-171641a60f797307b992c868530a1e54.scn"]
+source_file="res://assets/brackeys_3d_game_assets/zombie/zombie_run.glb"
+dest_files=["res://.godot/imported/zombie_run.glb-ac1e1870aebe89e6a150680bb4387d76.scn"]
 
 [params]
 

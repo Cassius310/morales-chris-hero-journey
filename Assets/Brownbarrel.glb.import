@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c3y5udlfs7ku6"
-path="res://.godot/imported/Brownbarrel.glb-6790497a2ae41762eb6f86b2a35db532.scn"
+path="res://.godot/imported/Brownbarrel.glb-64472a5c7cd83a08584683e3922750a2.scn"
 
 [deps]
 
-source_file="res://Assets/Brownbarrel.glb"
-dest_files=["res://.godot/imported/Brownbarrel.glb-6790497a2ae41762eb6f86b2a35db532.scn"]
+source_file="res://assets/Brownbarrel.glb"
+dest_files=["res://.godot/imported/Brownbarrel.glb-64472a5c7cd83a08584683e3922750a2.scn"]
 
 [params]
 

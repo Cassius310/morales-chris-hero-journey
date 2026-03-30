@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bdenvgyt1sxoe"
-path="res://.godot/imported/keyring.glb-b44b8013d39afcd646a2e1edeb456db7.scn"
+path="res://.godot/imported/keyring.glb-4103c7eca0495bb82557ba43076a8f9f.scn"
 
 [deps]
 
-source_file="res://Assets/brackeys_3d_game_assets/dungeon_assets/props/keyring.glb"
-dest_files=["res://.godot/imported/keyring.glb-b44b8013d39afcd646a2e1edeb456db7.scn"]
+source_file="res://assets/brackeys_3d_game_assets/dungeon_assets/props/keyring.glb"
+dest_files=["res://.godot/imported/keyring.glb-4103c7eca0495bb82557ba43076a8f9f.scn"]
 
 [params]
 
@@ -41,7 +41,7 @@ _subresources={
 "materials": {
 "DungeonMat": {
 "use_external/enabled": true,
-"use_external/fallback_path": "res://Assets/brackeys_3d_game_assets/dungeon_assets/props/mat_props.tres",
+"use_external/fallback_path": "res://assets/brackeys_3d_game_assets/dungeon_assets/props/mat_props.tres",
 "use_external/path": "uid://c5wxhxf8hbef8"
 }
 }

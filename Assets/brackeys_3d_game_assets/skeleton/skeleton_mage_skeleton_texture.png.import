@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bnhlijiqmc25h"
-path.s3tc="res://.godot/imported/skeleton_mage_skeleton_texture.png-d0a1d1ec510daeb0b678b4e4c4065655.s3tc.ctex"
+path.s3tc="res://.godot/imported/skeleton_mage_skeleton_texture.png-ac604da85b265bcadce7036a9aefe0ca.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://Assets/brackeys_3d_game_assets/skeleton/skeleton_mage_skeleton_texture.png"
-dest_files=["res://.godot/imported/skeleton_mage_skeleton_texture.png-d0a1d1ec510daeb0b678b4e4c4065655.s3tc.ctex"]
+source_file="res://assets/brackeys_3d_game_assets/skeleton/skeleton_mage_skeleton_texture.png"
+dest_files=["res://.godot/imported/skeleton_mage_skeleton_texture.png-ac604da85b265bcadce7036a9aefe0ca.s3tc.ctex"]
 
 [params]
 

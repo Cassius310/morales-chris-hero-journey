@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d08g1gifdp6op"
-path="res://.godot/imported/wall_half_endcap.glb-619f1e0dff91460e1950e526300c8e21.scn"
+path="res://.godot/imported/wall_half_endcap.glb-373641266833ed565f5d63b76aa73c23.scn"
 
 [deps]
 
-source_file="res://Assets/brackeys_3d_game_assets/dungeon_assets/building/wall_half_endcap.glb"
-dest_files=["res://.godot/imported/wall_half_endcap.glb-619f1e0dff91460e1950e526300c8e21.scn"]
+source_file="res://assets/brackeys_3d_game_assets/dungeon_assets/building/wall_half_endcap.glb"
+dest_files=["res://.godot/imported/wall_half_endcap.glb-373641266833ed565f5d63b76aa73c23.scn"]
 
 [params]
 
